@@ -168,5 +168,12 @@ th{
 }
 
 .pariton{
+  color: white;
   background-color: #A5468B;
+}
+
+#catalogDisclaimer{
+  text-align: right;
+  font-size: 0.8em;
+  padding: 1em;
 }
