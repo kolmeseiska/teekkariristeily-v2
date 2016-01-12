@@ -1,0 +1,183 @@
+html {
+}
+
+#main {
+  max-width: 1024px;
+  margin: 0 auto;
+  min-height: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+article {
+  clear: both;
+  display: block;
+  margin: 3% 0;
+}
+
+h1 {
+  display: block;
+  margin: 20px auto;
+  font-size: 2em;
+  font-weight: bold;
+}
+h1 span {
+  font-size: 0.6em;
+  font-weight: normal;
+}
+p {
+  margin: 0.5em 0;
+  display: block;
+  width: 80%;
+}
+
+header {
+  display: block;
+  min-height: 20%;
+  text-align: center;
+}
+
+footer {
+  display: block;
+  max-width: 1024px;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+  padding-left: 170px;
+}
+
+table {
+  border-collapse: separate;
+  width: 80%;
+  margin: 1%;
+}
+
+thead {
+  line-height: 2.5;
+  background-color: #82DAF7; 
+}
+
+thead th:first-child { 
+  -khtml-border-radius: 0.4em 0 0 0.4em;
+  -moz-border-radius: 0.4em 0 0 0.4em;
+  -ms-border-radius: 0.4em 0 0 0.4em;
+  -o-border-radius: 0.4em 0 0 0.4em;
+  -webkit-border-radius: 0.4em 0 0 0.4em;
+  border-radius: 0.4em 0 0 0.4em;
+}
+
+thead th:last-child {
+  -khtml-border-radius: 0 0.4em 0.4em 0;
+  -moz-border-radius: 0 0.4em 0.4em 0;
+  -ms-border-radius: 0 0.4em 0.4em 0;
+  -o-border-radius: 0 0.4em 0.4em 0;
+  -webkit-border-radius: 0 0.4em 0.4em 0;
+  border-radius: 0 0.4em 0.4em 0;
+}
+
+th {
+  border: 1px solid #78A1A4;
+  text-align: center;
+}
+
+/*tbody tr:hover {
+  background-color: lightgrey !important;
+}
+*/
+
+tbody tr:nth-child(even)  {
+  background-color: #ECF8FC;
+}
+
+td {
+  border: 1px solid #78A1A4;
+  text-align: inherit;
+  padding: 10px;
+}
+
+.etusivu {
+  border: 0px;
+    width: 100%;
+  margin: 0%;
+  valign: top;
+}
+
+#main_logo {
+  margin-left: 5%;
+  margin-top: 2%;
+  max-width: 15%;
+
+}
+
+#logo_block {
+  background: url(../images/TR16_banneri.png) no-repeat top center;
+  min-height: 250px;
+  height: 20%;
+}
+
+#slogan {
+  font-size: 3em;
+  font-family: 'Droid Sans'; 
+  font-style: normal;
+  margin: auto 0% auto 10%;
+  width: 100%;
+  vertical-align: center;
+}
+
+.centered {
+  float: none !important;
+  margin: 0 auto !important;
+}
+
+nav ul {
+  width: 100%;
+  margin: auto;
+}
+
+nav li {
+  float: none !important;
+  margin: 0 auto;
+  display: inline-block !important;
+}
+
+.todo {
+  font-weight: bold;
+  color: #840B0B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#cabinCatalog tr td:nth-child(odd) {
+  width: 20%
+}
+
+#cabinCatalog tr td:nth-child(even) {
+  width: 60%
+}
+
+.terms {
+  width: 80%;
+}
+
+.terms li {
+  margin: 2px 0 4px 0;
+  text-align: justify;
+}
+
+.countdown-box {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+#slider {
+  width:560px;
+  height:420px !important;
+  margin-bottom: 5%;
+}
